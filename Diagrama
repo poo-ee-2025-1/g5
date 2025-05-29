@@ -1,0 +1,36 @@
+### Diagram de Caso de Uso
+
+https://plantuml.online/png/bO-nJWD134HxVuLrVGeIAWeaT3eXAee8UildN2njTi7hRK1y3KK-v7wCJRX0JgdIsQCtevaW6qTFQ3fi7NirOTSK0OWz6RP19Re077IAGn1irffTTeIzOBTHhW0hOHV51d5bQl0J44iMfbpnbdhARcJOlHTzerqDJBb1olZItfoJhveB1VsewBED-pcvX2-0gGuk5lT7y_nVmgbs5mU9Mr5BLpU_ej1iPE0IAhTMBpJkn--43_KA4xmwXn_5Zedy6pWXjt1O2F_L_rPTIAjBgRghVdhm3fyYXz8B_000
+
+@startuml
+left to right direction
+
+actor Cliente
+
+rectangle "Sistema de Eficiencia Energetica" {
+  usecase "Cadastrar Equipamentos" as UC1
+  usecase "Visualizar Orçamentos" as UC2
+}
+
+Cliente --> UC1
+Cliente --> UC2
+
+
+actor Engenheiro
+
+rectangle "Sistema de Eficiencia Energetica" {
+
+  usecase "Visualizar Orçamentos" as UC2
+  usecase "Calcular Situação Atual" as UC3
+  usecase "Gerar Orcamento" as UC4
+
+}
+
+
+Engenheiro --> UC2
+Engenheiro --> UC3
+Engenheiro --> UC4
+
+UC3 --> UC4 : Include
+
+@enduml
