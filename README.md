@@ -95,7 +95,8 @@ $$ \text{Payback} = \frac{\text{Capital inicial investido}}{\text{Economia anual
 
 ## Referências 
 
-
+https://123ecos.com.br/docs/eficiencia-energetica/
+https://greenyellow.com.br/eficiencia-energetica-na-industria/
 https://www.produttivo.com.br/blog/eficiencia-energetica/#como-melhorar-a-eficincia-energtica-na-empresa
 https://cs8gestao.com.br/blog/descubra-a-importancia-do-payback-para-decisoes-estrategicas/
 https://www.luterled.com.br/fator-de-potencia
