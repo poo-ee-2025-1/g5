@@ -72,9 +72,9 @@ inicial será calculado por meio da seguinte equação:
 
 $$ \text{Payback} = \frac{\text{Capital inicial investido}}{\text{Economia anual}} $$
 
-##...
+## ...
 
-#Referências 
+# Referências 
 
 
 https://www.produttivo.com.br/blog/eficiencia-energetica/#como-melhorar-a-eficincia-energtica-na-empresa
