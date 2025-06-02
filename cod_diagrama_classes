@@ -1,0 +1,91 @@
+//em codigo, diagrama de classes:
+@startuml
+
+
+
+
+
+
+class Usuario {
+    - id_usuario : int
+    - email_usuario : String
+    - senha : String
+    - isAdmin : boolean
+    + autenticar(email: String, senha: String) : boolean
+    + mudarSenha(novaSenha: String) : void
+}
+
+
+class Clientes {
+    - nome : String
+    - endereco : String
+    - contato : String
+    - id_do_cliente : int
+    - equipamentos : List<Equipamento>
+    + addEquipamento(equipamento : Equipamento) : void
+    + removeEquipamento(idEquipamento : int) : void
+    + obterEquipamento(idEquipamento : int) : Equipamento
+}
+
+class Engenheiro {
+    - id_engenheiro : int
+    - nome : String
+    - registroProfissional : String
+    + criarOrcamento(cliente: Clientes) : Orcamento
+    + criarRecomendacao(orcamento: Orcamento, descricao: String, tipo: String, custo: double) : RecomendacaoEF
+}
+
+' Classes de Equipamento
+abstract class Equipamento {
+    - idEquipamento : int 
+    - tipo : String       
+}
+
+class Motor {
+    - potenciaHP : double
+    - horasUsoDiario : double
+    - custoEnergiaKWh : double
+    - id_cliente : int 
+    - eficienciaAtual : double
+    + calcularConsumo() : double
+    + calcularEficiencia() : double
+}
+
+
+' Classes de Orçamento e Recomendação
+class Orcamento {
+    - id : int
+    - dataGeracao : Date
+    - valorTotal : double
+    - descricaoRecomendada : String
+    - idCliente : int 
+    + gerarOrcamento() : Orcamento 
+    + calcularTotal() : double
+    - adicionarRecomendacao() : void 
+}
+
+class RecomendacaoEF {
+    - id_recomendacao : int
+    - descricao : String
+    - tipo_recomendacao : String
+    - custo_implementacao : double
+}
+
+' Relações de Herança
+Usuario <|-- Clientes
+Usuario <|-- Engenheiro
+Equipamento <|-- Motor
+
+
+' Relações de Associação
+Clientes "1" *-- "*" Equipamento : possui
+Clientes "1" -- "*" Orcamento : gera
+
+' Relações de Engenheiro 
+Engenheiro "1" -- "*" Orcamento : cria >
+Engenheiro "1" -- "*" RecomendacaoEF : elabora >
+
+' Relações entre Orçamento e Recomendação
+Orcamento "1" -- "0..*" RecomendacaoEF : contém
+
+@enduml
