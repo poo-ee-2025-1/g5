@@ -111,7 +111,7 @@ $$ \text{Payback} = \frac{\text{Capital inicial investido}}{\text{Economia anual
   - Diagrama de Casos de Uso
   - Diagrama de Sequência
     
-  [Disponiveis temporariamente aqui](g5/Samuel)
+  [Disponiveis temporariamente aqui](/Samuel)
 
 
 ---
