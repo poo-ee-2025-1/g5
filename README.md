@@ -91,7 +91,54 @@ inicial será calculado por meio da seguinte equação:
 
 $$ \text{Payback} = \frac{\text{Capital inicial investido}}{\text{Economia anual}} $$
 
-## ...
+---
+
+## Cronograma de Atividades
+
+
+
+### **Divisão de Tarefas**
+| Cargo                  | Responsável  | Atividades                                                         |
+|------------------------|--------------|--------------------------------------------------------------------|
+| Analista de Dados      | Sophia       | Banco de dados, pesquisa de tarifas, integração de dados.          |
+| Designer de Interface  | Samuel       | Criação da interface (Swing, JavaFX ou CLI).                       |
+| Programador 1          | Marcos       | Desenvolvimento das classes principais (POO).                      |
+| Programador 2          | Hugo         | Desenvolvimento das classes principais (POO) + Integração geral.   |
+
+### **Modelagem Inicial**
+- Diagramas UML:
+  - Diagrama de Classes
+  - Diagrama de Casos de Uso
+  - Diagrama de Sequência
+
+---
+
+## **Cronograma de Atividades**
+
+| Período | Atividade                                | Responsáveis                   | Check    |
+|---------|------------------------------------------|--------------------------------|----------|
+| 1-4     | Planejamento e modelagem UML             | Todos                          |  ✅     |
+| 5-10    | Banco de Dados + Início Backend          | Analista + Estagiários         |  ⏳     |
+| 5-15    | Desenvolvimento das Classes (POO)        | Estagiários                    |  ⏳     |
+| 10-20   | Desenvolvimento da Interface             | Designer                       |  ⏳     |
+| 16-23   | Integração dos Módulos                   | Todos                          |  ⏳     |
+| 24-27   | Testes, ajustes, melhorias               | Todos                          |  ⏳     |
+| 28-29   | Documentação final e geração do relatório| Todos                          |  ⏳     |
+| 30      | Entrega no fórum + preparação final      | Todos                          |  ⏳     |
+
+✅ - Completo
+⏳ - Em andamento
+
+---
+
+## **Ferramentas Necessárias**
+- Linguagem: Java
+- IDEs: VS Code, BlueJ ou IntelliJ
+- Controle de versão: Git e GitHub
+- Interface Gráfica: Swing ou JavaFX
+- Documentação: Markdown + GitHub Projects
+
+---
 
 ## Referências 
 https://123ecos.com.br/docs/eficiencia-energetica/
