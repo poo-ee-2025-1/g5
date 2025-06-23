@@ -37,22 +37,30 @@ Portanto, discutir a eficiência elétrica é essencial para promover uma cultur
 
 ## **Benefícios da Eficiência Energética na Indústria**
 
-###*Benefícios Econômicos*
+*Benefícios Econômicos:*
  
 *Redução dos custos operacionais com energia elétrica*.
+
 *Aumento da rentabilidade e das margens de lucro*.
+
 *Menor impacto de aumentos tarifários e crises energéticas*.
+
 *Diminuição de custos de manutenção*, devido à menor sobrecarga e desgaste dos equipamentos.
+
 *Retorno rápido sobre o investimento (payback)* dos projetos de eficiência.
+
 *Liberação de recursos para inovação*, expansão e modernização da indústria.
 
-###*Benefícios na Visão dos Investidores*
+*Benefícios na Visão dos Investidores:*
  
 *Maior atratividade para investidores*, fundos e financiamentos verdes.
+
 *Menor risco operacional e financeiro*, devido à estabilidade no consumo energético.
+
 *Melhor imagem corporativa, demonstrando inovação*, responsabilidade ambiental e gestão eficiente.
 
-###*Benefícios na Competitividade Industrial*
+
+*Benefícios na Competitividade Industrial:*
  
 *Redução dos custos de produção*, permitindo preços mais competitivos.
 *Aumento da produtividade*, com processos mais rápidos e eficientes.
