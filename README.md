@@ -35,6 +35,8 @@ Superar esses desafios requer uma abordagem integrada, que envolva investimentos
 Falar sobre eficiência elétrica é fundamental para promover mudanças concretas no modo como usamos energia. A motivação para tratar desse tema está na possibilidade real de aliar economia, inovação tecnológica e responsabilidade socioambiental. Através da adoção de práticas simples, como o uso de lâmpadas LED, sistemas de automação, controle de demanda e equipamentos com selo Procel, é possível obter ganhos significativos em desempenho e sustentabilidade. Além disso, discutir eficiência elétrica é uma forma de contribuir para a formação de uma consciência coletiva em favor do uso inteligente dos recursos naturais, algo indispensável para garantir qualidade de vida às futuras gerações.
 Portanto, discutir a eficiência elétrica é essencial para promover uma cultura de inovação, responsabilidade e uso consciente da energia — pilares indispensáveis para a evolução de qualquer sociedade que busca prosperar sem comprometer o equilíbrio ambiental e o bem-estar das próximas gerações.
 
+## Benefícios da Eficiência Energética na Indústria
+
  *Benefícios Econômicos*
 - Redução dos custos operacionais com energia elétrica.
 - Aumento da rentabilidade e das margens de lucro.
