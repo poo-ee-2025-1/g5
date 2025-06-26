@@ -8,9 +8,16 @@ Este projeto surge da necessidade de integrar conhecimentos da engenharia elétr
 Ao unir teoria e prática, tecnologia e sustentabilidade, este trabalho busca contribuir para a formação de soluções que respondam aos desafios energéticos contemporâneos, promovendo um uso mais consciente e eficaz da eletricidade em diferentes contextos de aplicação.
 
 ## Justificativa
-A escolha do tema "eficiência elétrica" se fundamenta na sua relevância crescente diante dos desafios energéticos, econômicos e ambientais enfrentados atualmente. Em um cenário onde o consumo de energia elétrica aumenta continuamente e os custos operacionais impactam diretamente a competitividade de empresas e a sustentabilidade dos sistemas, torna-se urgente buscar soluções que promovam o uso racional e inteligente da eletricidade.
-A eficiência elétrica, nesse contexto, representa uma estratégia fundamental para aperfeiçoar recursos, reduzir desperdícios e melhorar o desempenho de sistemas e equipamentos. Seu estudo é essencial tanto no meio acadêmico quanto no setor produtivo, pois envolve não apenas o domínio de conceitos da engenharia elétrica, mas também a aplicação de tecnologias modernas e soluções inovadoras.
-Assim, o uso deste tema no projeto é plenamente justificado por sua importância técnica, social e ambiental, além de seu potencial para gerar impactos positivos em múltiplas áreas, incluindo a formação de profissionais mais preparados e o desenvolvimento de ferramentas que contribuam para um futuro mais eficiente e sustentável.
+A escolha do tema "eficiência elétrica" para o desenvolvimento deste trabalho fundamenta-se em sua relevância estratégica para o setor industrial. Em um cenário de alta competitividade, onde os custos operacionais têm impacto direto na lucratividade das empresas, a busca por soluções que promovam o uso eficiente da eletricidade é indispensável. A eficiência elétrica, nesse contexto, representa uma ferramenta essencial para reduzir gastos energéticos, otimizar processos produtivos e aumentar a competitividade no mercado.
+
+No ambiente industrial, onde o consumo energético é expressivo e frequentemente representa uma parcela significativa dos custos, a adoção de práticas e tecnologias voltadas à eficiência elétrica, como inversores de frequência, sistemas de automação e equipamentos de alto desempenho, oferece benefícios diretos, como a redução do desperdício, a melhoria do desempenho operacional e o prolongamento da vida útil de máquinas e sistemas.
+
+Este trabalho se justifica pela necessidade de explorar e propor soluções que atendam às demandas específicas da indústria, contribuindo para a criação de processos mais eficientes e econômicos.Dessa forma, o estudo do tema busca auxiliar as empresas na adoção de estratégias que combinem redução de custos e melhor aproveitamento dos recursos energéticos, promovendo maior eficiência operacional e fortalecendo sua competitividade no mercado.
+
+---
+
+Essa versão destaca a importância da eficiência elétrica dentro do setor industrial, abordando desafios e soluções específicas.
+
 
 ## Problema na Atualidade
 Um dos maiores obstáculos é o alto custo inicial de investimentos em tecnologias eficientes, como motores de alto rendimento, inversores de frequência, sistemas de automação, sensores e plataformas de gestão energética. Embora o retorno sobre o investimento seja, em muitos casos, rápido, muitas empresas, principalmente as pequenas e médias indústrias, têm dificuldade em arcar com esses custos.
