@@ -36,10 +36,10 @@ Além disso, a rápida evolução das tecnologias digitais, como Internet das Co
 
 Por fim, a falta de integração entre os diferentes setores das indústrias, como produção, manutenção, engenharia e finanças, também dificulta a implementação de uma gestão energética eficiente.
 
-Superar esses desafios requer uma abordagem integrada, que envolva investimentos em tecnologia, capacitação profissional, mudança de cultura organizacional e incentivo de políticas públicas mais efetivas. Apenas com ações conjuntas será possível transformar a eficiência energética em um diferencial competitivo sustentável para o setor industrial.
+Superar esses desafios requer uma abordagem integrada, que envolva investimentos em tecnologia, capacitação profissional, mudança de cultura organizacional e incentivo de políticas públicas mais efetivas. Apenas com ações conjuntas será possível transformar a eficiência energética em um diferencial competitivo sustentável para o setor industrial.(Fonte: Programa PotencializEE)
 
 ## Motivação para Abordar o Tema
-Falar sobre eficiência elétrica é fundamental para promover mudanças concretas no modo como utilizamos e gerenciamos os recursos energéticos. A motivação para abordar esse tema está na possibilidade real de reduzir custos operacionais, aumentar a competitividade e otimizar o desempenho de equipamentos. Medidas como o uso de lâmpadas LED, sistemas de automação, controle de demanda e equipamentos com selo Procel oferecem ganhos expressivos em economia de energia, contribuindo diretamente para a redução das despesas. Além disso, investir em eficiência elétrica é uma estratégia inteligente para melhorar a produtividade e minimizar desperdícios, garantindo resultados financeiros mais consistentes e sustentáveis.(Fonte: Programa PotencializEE)
+Falar sobre eficiência elétrica é fundamental para promover mudanças concretas no modo como utilizamos e gerenciamos os recursos energéticos. A motivação para abordar esse tema está na possibilidade real de reduzir custos operacionais, aumentar a competitividade e otimizar o desempenho de equipamentos. Medidas como o uso de lâmpadas LED, sistemas de automação, controle de demanda e equipamentos com selo Procel oferecem ganhos expressivos em economia de energia, contribuindo diretamente para a redução das despesas. Além disso, investir em eficiência elétrica é uma estratégia inteligente para melhorar a produtividade e minimizar desperdícios, garantindo resultados financeiros mais consistentes e sustentáveis.
 
 ## Benefícios da Eficiência Energética na Indústria
 
