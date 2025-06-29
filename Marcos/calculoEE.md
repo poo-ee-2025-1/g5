@@ -63,14 +63,14 @@ Adotar inversores de frequência não é apenas uma modernização, mas uma deci
 - https://www.nepin.com.br/blog/industria/inversores-de-frequencia-2/
 - https://blog.rhmateriaiseletricos.com.br/inversor-de-frequencia-qualidade-economia/
 
+---
 
 # Cálculos para os Selos de Eficiência Energética
 
 Selos como Procel, INMETRO, IE2/IE3/IE4 (conforme normas ABNT e IEC) indicam a eficiência energética de motores, compressores, lâmpadas e demais equipamentos industriais, com base em ensaios padronizados (ABNT NBR 17094-1 e IEC 60034-30-1).
 
----
 
-## 2.1. Eficiência Energética
+## 1.1. Eficiência Energética
 
 **Fórmula:**
 
@@ -86,44 +86,8 @@ $$
 
 (Fonte: INMETRO, Portaria 488/2010)
 
----
 
-## 2.2. Fator de Carga (FC)
-
-**Fórmula:**
-
-$$
-FC = \frac{P_{\text{operacional}}}{P_{\text{nominal}}}
-$$
-
-**Descrição dos termos:**
-
-- $FC$: Fator de carga (adimensional).
-- $P_{\text{operacional}}$: Potência média usada.
-- $P_{\text{nominal}}$: Potência nominal do equipamento.
-
-(Fonte: SEBRAE, 2018)
-
----
-
-## 2.3. Consumo Específico (CE)
-
-**Fórmula:**
-
-$$
-CE = \frac{E}{\text{Volume Bombeado ou Trabalho Realizado}}
-$$
-
-**Descrição dos termos:**
-
-- $CE$: Consumo específico (kWh/unidade de produção).
-- $E$: Energia consumida (kWh).
-
-(Fonte: WEG, 2021)
-
----
-
-## 2.4. Classificação por Selo de Eficiência
+## 1.2. Classificação por Selo de Eficiência
 
 **Exemplo de faixas hipotéticas de eficiência para motores:**
 
@@ -133,9 +97,8 @@ $$
 
 (Fonte: INMETRO e PROCEL, 2022)
 
----
 
-## 2.5. Comparação com Equipamento de Referência
+## 1.3. Comparação com Equipamento de Referência
 
 **Fórmula:**
 
@@ -151,13 +114,61 @@ $$
 
 (Fonte: IEA, 2023)
 
----
-
 # Referências
 
 - INMETRO – Portaria nº 488/2010 – Regulamento técnico de eficiência energética para motores elétricos.
 - PROCEL (2015) – Manual de Eficiência Energética em Sistemas Motrizes.
-- DOE (2012) – Adjustable Speed Drive Applications.
 - WEG (2021) – Manual Técnico de Motores Elétricos.
 - IEA (2023) – Energy Efficiency Indicators.
-- SEBRAE (2018) – Eficiência Energética na Indústria.
+
+---  
+
+#  Classificação IE para Motores Elétricos Industriais
+
+Essa classificação segue a norma **IEC 60034-30-1**, também adotada no Brasil pela **ABNT NBR IEC 60034-30-1**, e identifica níveis padronizados de **eficiência energética para motores trifásicos de indução**.
+
+##  Níveis de Eficiência (IE)
+
+| Classe IE | Descrição                                     | Eficiência                                |
+|-----------|-----------------------------------------------|--------------------------------------------|
+| IE1       | Baixa eficiência                              | Obsoleta em vários países                  |
+| IE2       | Eficiência padrão                             | Mínimo legal em vários mercados            |
+| IE3       | Alta eficiência (*High Efficiency*)           | Recomendado por programas de eficiência    |
+| IE4       | Super eficiência (*Premium Efficiency*)       | Motores mais eficientes comercialmente     |
+| IE5       | Ultra eficiência                              | Tecnologias avançadas (ex: motores síncronos de ímãs permanentes) |
+
+>  A sigla **"IE"** significa *International Efficiency*.
+
+---
+
+##  Exemplo de Eficiências Típicas  
+**Motores trifásicos de 4 polos, 50 Hz:**
+
+| Potência (kW) | IE1 (%) | IE2 (%) | IE3 (%) | IE4 (%) |
+|---------------|---------|---------|---------|---------|
+| 0,75          | 77,4    | 81,4    | 84,1    | 86,4    |
+| 1,5           | 81,8    | 84,3    | 86,7    | 88,6    |
+| 7,5           | 88,3    | 89,7    | 91,7    | 93,1    |
+| 15,0          | 90,2    | 91,4    | 93,0    | 94,3    |
+| 30,0          | 91,8    | 93,0    | 94,6    | 95,8    |
+
+---
+
+##  Aplicações da Classificação IE
+
+- Selos obrigatórios de eficiência (ex.: INMETRO, Portaria 488/2010).
+- Compras públicas e financiamentos (ex.: BNDES exige IE3 ou superior).
+- Projetos de eficiência energética industrial.
+- Redução de consumo e emissões de CO₂.
+- Comparação técnica entre equipamentos e fabricantes.
+
+---
+
+##  Referências
+
+- IEC 60034-30-1 – Efficiency classes for three-phase squirrel cage induction motors.
+- ABNT NBR IEC 60034-30-1 – Norma brasileira equivalente.
+- INMETRO – Portaria nº 488/2010 – Regulamento técnico de eficiência energética para motores elétricos.
+- PROCEL (2015) – Manual de Eficiência Energética em Sistemas Motrizes.
+- WEG (2021) – Manual Técnico de Motores Elétricos.
+- Siemens, ABB – Catálogos técnicos de motores industriais.
