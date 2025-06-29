@@ -143,12 +143,12 @@ $$ \text{Payback} = \frac{\text{Capital inicial investido}}{\text{Economia anual
 
 
 ### **Divisão de Tarefas**
-| Cargo                  | Responsável  | Atividades                                                         |
-|------------------------|--------------|--------------------------------------------------------------------|
-| Analista de Dados      | Sophia       | Banco de dados, pesquisa de tarifas, integração de dados.          |
-| Designer de Interface  | Samuel       | Criação da interface (Swing, JavaFX ou CLI).                       |
-| Programador 1          | Marcos       | Desenvolvimento das classes principais (POO).                      |
-| Programador 2          | Hugo         | Desenvolvimento das classes principais (POO) + Integração geral.   |
+| Cargo                                    | Responsável  | Atividades                                                         |
+|------------------------------------------|--------------|--------------------------------------------------------------------|
+| Analista de Dados                        | Sophia       | Banco de dados, pesquisa de tarifas, integração de dados.          |
+| Designer de Interface                    | Samuel       | Criação da interface (Swing, JavaFX ou CLI).                       |
+| teorica / Analista de dados              | Marcos       | Causas e problemas / pesquisa de equipamentos.                      |
+| Programador 2                            | Hugo         | Desenvolvimento das classes principais (POO) + Integração geral.   |
 
 ### **Modelagem Inicial**
 - Diagramas UML:
