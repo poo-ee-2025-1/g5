@@ -1,0 +1,28 @@
+**Objetivo**
+
+  Este conjunto de clases tem como objetivo implementar o acesso a dados de um sistema de consulta de tarifas de energia elétrica voltado ao setor industrial de cada estado. A classe
+Database tem como objetivo gerenciar a conexão com o banco de dados SQLite utilizando a biblioteca ORMLite. Já a classe Tarifas representa uma entidade mapeada para uma tabela do banco 
+de dados e seus métodos getters e setters. A classe TarifasRepository é responsável por gerenciar a interação entre o programa e o banco de dados SQLite, nela foi inserida o método
+buscarEstado em que foi implementado um laço para, para que percorra a tabela e encontre o estado desejado e então retorne os valores ponta e fora ponta. Assim, na classe CalcularGasto 
+será  calculado o gasto  de cada equipamento, de acordo com o horário de funcionamento, usando os valores ponta e fora de ponta, e com a potência do equipamento atual. A partir desses dados,
+o sistema pode fornecer recomendações personalizadas aos clientes, de acordo com suas necessidades específicas.
+
+**Referências**
+
+https://www.youtube.com/watch?v=y6znA6GFTC4&list=PLTYLKz3zyxKonrLifrisb02uIjIIVvGnZ&index=4
+
+https://sqlite.org/lang_createtable.html
+
+https://github.com/marceloakira/tutorials/blob/main/orm/README.md
+
+https://www.gasparbarancelli.com/post/hibernate-anotacao-column
+
+https://www.youtube.com/watch?v=2X6YfPAHjvY
+
+https://datacarpentry.github.io/sql-socialsci/02-db-browser.html#launching-db-browser
+
+https://ormlite.com/javadoc/ormlite-core/index.html?com/j256/ormlite/field/DatabaseField.html
+
+https://blog.betrybe.com/java-foreach/?utm_term=&utm_campaign=Performance+Max+Cursos&utm_source=adwords&utm_medium=ppc&hsa_acc=1466424558&hsa_cam=21861374146&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt =&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=21850942791&gbraid=0AAAAACnih513DTTAuKPiw0pr71LF ssTmW&gclid=Cj0KCQjw64jDBhDXARIsABkk8J7TgYnDuoEmiA_JEDyeK6f2CaSDCh5keu2XwqKSu0EuX6QDtwW7RJgaAk9bEALw_wcB
+
+https://www.dio.me/articles/dominando-o-loop-for-each-em-java
