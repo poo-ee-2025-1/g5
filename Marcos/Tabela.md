@@ -19,7 +19,7 @@
 | Consumo Estimado     | 400 kWh/mês                        | 320 kWh/mês                               |
 | Valor                | R$ 12.000                          | R$ 18.000                                 |
 
-
+##
 
 
 ### 2. **Compressor de Ar**
@@ -41,7 +41,7 @@
 | Valor                | R$ 25.000                               | R$ 60.000                                   |
 
 
----
+##
 
 ### 3. **Iluminação Industrial**
 
@@ -63,7 +63,7 @@
 | Valor (unitário)     | R$ 5                             | R$ 450                                    |
 
 
----
+##
 
 ### 4. **Forno Elétrico**
 
@@ -84,8 +84,7 @@
 | Consumo Estimado     | 1.000 kWh/mês                     | 700 kWh/mês                            |
 | Valor                | R$ 150.000                        | R$ 250.000                             |
 
-
----
+##
 
 ### 5. **Sistema de Refrigeração (Chiller)**
 
@@ -106,7 +105,7 @@
 | Valor                | R$ 80.000                      | R$ 150.000                             |
 
 
----
+##
 
 ### 6. **Bomba Centrífuga**
 
@@ -128,7 +127,7 @@
 | Valor                | R$ 12.000                         | R$ 35.000                                |
 
 
----
+##
 
 ### 7. **Ventilador Industrial**
 
@@ -149,7 +148,7 @@
 | Valor                | R$ 20.000                     | R$ 35.000                              |
 
 
----
+##
 
 ### 8. **Ar-condicionado Split**
 
@@ -171,7 +170,7 @@
 | Valor                | R$ 1.800                             | R$ 3.500                             |
 
 
----
+##
 
 ### 9. **Sistema de Exaustão**
 
@@ -192,7 +191,7 @@
 | Consumo Estimado     | 500 kWh/mês              | 350 kWh/mês                      |
 | Valor                | R$ 1.400                 | R$ 2.800                         |
 
----
+##
 
 ### 10. **Sistema de Aquecimento**
 
@@ -237,7 +236,7 @@ Total economizado: *300 kWh/mês (30%)*
 ### **Quem gera a maior parte da economia:**  
 > É o **controle inteligente** (inversor, PID, sensores) e **troca do equipamento para modelos mais eficientes**.
 
----
+##
 
 ## **Resumo geral por tipo de ação:**
 
@@ -248,7 +247,7 @@ Total economizado: *300 kWh/mês (30%)*
 | Troca de tecnologia (LED vs vapor metálico, bomba de calor vs resistência) | até 50–70% | Iluminação, aquecimento, chillers           |
 | Correto dimensionamento + manutenção                     | ~2–5%                      | Todos                                        |
 
----
+##
 
 ## **Conclusão prática:**
 - O *selo* garante que o equipamento é eficiente.
