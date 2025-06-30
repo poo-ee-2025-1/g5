@@ -211,5 +211,48 @@
 | Vida Útil Estimada   | 6 anos                          | 12 anos                              |
 | Consumo Estimado     | 1.000 kWh/mês                   | 300 kWh/mês                          |
 | Valor                | R$ 2.000                        | R$ 6.000                             |
-```
+
+# **Quanto cada fator pesa na economia final**
+
+## *Exemplo simplificado:* 
+Equipamento gastava *1000 kWh/mês* → passou a gastar *700 kWh/mês*  
+Total economizado: *300 kWh/mês (30%)*
+
+*Essa economia vem somada de três fatores principais:*
+
+| Fator                                         | Economia típica sobre consumo inicial |
+|-----------------------------------------------|--------------------------------------:|
+| Troca por motor mais eficiente (IE3 / IE4)    | ~5–10%                                |
+| Inversor de frequência / controle eletrônico  | ~10–25%                               |
+| Melhor dimensionamento + manutenção preventiva| ~2–5%                                 |
+
+- Selos (Procel A, NEMA Premium etc.) não geram economia extra por si eles só *atestam* que o equipamento realmente tem eficiência maior. 
+##
+
+## **Distribuição prática (exemplo realista):**
+- **8%** da economia veio do novo motor IE3 (ou IE4, IE5, NEMA Premium)
+- **20%** veio do inversor de frequência (adapta velocidade à demanda real)
+- **2%** de ajustes no dimensionamento e manutenção
+
+### **Quem gera a maior parte da economia:**  
+> É o **controle inteligente** (inversor, PID, sensores) e **troca do equipamento para modelos mais eficientes**.
+
+---
+
+## **Resumo geral por tipo de ação:**
+
+| Item                                                      | % típica de economia final | Exemplos práticos                            |
+|----------------------------------------------------------|---------------------------:|----------------------------------------------|
+| Motor mais eficiente (IE3, IE4, IE5, NEMA Premium, Procel A) | ~5–10%                     | Motores, bombas, exaustores, compressores   |
+| Controle eletrônico (VSD, PID, inversor, sensor)         | ~10–25%                    | Ventilação, bombas, compressores, iluminação|
+| Troca de tecnologia (LED vs vapor metálico, bomba de calor vs resistência) | até 50–70% | Iluminação, aquecimento, chillers           |
+| Correto dimensionamento + manutenção                     | ~2–5%                      | Todos                                        |
+
+---
+
+## **Conclusão prática:**
+- O *selo* garante que o equipamento é eficiente.
+- Quem realmente gera a maior economia:  
+  - uso de controle variável (inversor, PID, sensores)
+  - troca para equipamentos certificados com maior eficiência (IE3, IE4…)
 
