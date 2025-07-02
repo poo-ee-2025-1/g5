@@ -1,1 +1,102 @@
+// Classe que representa um equipamento com todos os seus atributos
+public class Equipamento {
+    private String nome;
+    private String modeloReal;
+    private String categoria;
+    private int potenciaNominalWatts;
+    private int tensaoOperacaoVolts;
+    private String classeEficiencia;
+    private String setorIndustrial;
+    private String sistemaControle;
+    private String dataAquisicao;
+    private String certificacoes;
+    private int vidaUtilEstimadaHoras;
+    private double consumoEstimadoKWhMes;
+    private double valorUnitarioReais;
+    private int horasPorDiaTrabalho;        // novo atributo adicionado
+    private int diasFuncionamentoMes;       // novo atributo adicionado
 
+    // Construtor completo para criar um equipamento
+    public Equipamento(
+        String nome, String modeloReal, String categoria,
+        int potenciaNominalWatts, int tensaoOperacaoVolts,
+        String classeEficiencia, String setorIndustrial,
+        String sistemaControle, String dataAquisicao, String certificacoes,
+        int vidaUtilEstimadaHoras, double consumoEstimadoKWhMes,
+        double valorUnitarioReais, int horasPorDiaTrabalho,
+        int diasFuncionamentoMes
+    ) {
+        this.nome = nome;
+        this.modeloReal = modeloReal;
+        this.categoria = categoria;
+        this.potenciaNominalWatts = potenciaNominalWatts;
+        this.tensaoOperacaoVolts = tensaoOperacaoVolts;
+        this.classeEficiencia = classeEficiencia;
+        this.setorIndustrial = setorIndustrial;
+        this.sistemaControle = sistemaControle;
+        this.dataAquisicao = dataAquisicao;
+        this.certificacoes = certificacoes;
+        this.vidaUtilEstimadaHoras = vidaUtilEstimadaHoras;
+        this.consumoEstimadoKWhMes = consumoEstimadoKWhMes;
+        this.valorUnitarioReais = valorUnitarioReais;
+        this.horasPorDiaTrabalho = horasPorDiaTrabalho;
+        this.diasFuncionamentoMes = diasFuncionamentoMes;
+    }
+
+    // Métodos getters e setters (para acessar e alterar os valores dos atributos)
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
+
+    public String getModeloReal() { return modeloReal; }
+    public void setModeloReal(String modeloReal) { this.modeloReal = modeloReal; }
+
+    public String getCategoria() { return categoria; }
+    public void setCategoria(String categoria) { this.categoria = categoria; }
+
+    public int getPotenciaNominalWatts() { return potenciaNominalWatts; }
+    public void setPotenciaNominalWatts(int potenciaNominalWatts) { this.potenciaNominalWatts = potenciaNominalWatts; }
+
+    public int getTensaoOperacaoVolts() { return tensaoOperacaoVolts; }
+    public void setTensaoOperacaoVolts(int tensaoOperacaoVolts) { this.tensaoOperacaoVolts = tensaoOperacaoVolts; }
+
+    public String getClasseEficiencia() { return classeEficiencia; }
+    public void setClasseEficiencia(String classeEficiencia) { this.classeEficiencia = classeEficiencia; }
+
+    public String getSetorIndustrial() { return setorIndustrial; }
+    public void setSetorIndustrial(String setorIndustrial) { this.setorIndustrial = setorIndustrial; }
+
+    public String getSistemaControle() { return sistemaControle; }
+    public void setSistemaControle(String sistemaControle) { this.sistemaControle = sistemaControle; }
+
+    public String getDataAquisicao() { return dataAquisicao; }
+    public void setDataAquisicao(String dataAquisicao) { this.dataAquisicao = dataAquisicao; }
+
+    public String getCertificacoes() { return certificacoes; }
+    public void setCertificacoes(String certificacoes) { this.certificacoes = certificacoes; }
+
+    public int getVidaUtilEstimadaHoras() { return vidaUtilEstimadaHoras; }
+    public void setVidaUtilEstimadaHoras(int vidaUtilEstimadaHoras) { this.vidaUtilEstimadaHoras = vidaUtilEstimadaHoras; }
+
+    public double getConsumoEstimadoKWhMes() { return consumoEstimadoKWhMes; }
+    public void setConsumoEstimadoKWhMes(double consumoEstimadoKWhMes) { this.consumoEstimadoKWhMes = consumoEstimadoKWhMes; }
+
+    public double getValorUnitarioReais() { return valorUnitarioReais; }
+    public void setValorUnitarioReais(double valorUnitarioReais) { this.valorUnitarioReais = valorUnitarioReais; }
+
+    public int getHorasPorDiaTrabalho() { return horasPorDiaTrabalho; }
+    public void setHorasPorDiaTrabalho(int horasPorDiaTrabalho) { this.horasPorDiaTrabalho = horasPorDiaTrabalho; }
+
+    public int getDiasFuncionamentoMes() { return diasFuncionamentoMes; }
+    public void setDiasFuncionamentoMes(int diasFuncionamentoMes) { this.diasFuncionamentoMes = diasFuncionamentoMes; }
+
+    // toString: usado para imprimir o equipamento de forma resumida
+    public String toString() {
+        return "Nome: " + nome +
+               ", Modelo: " + modeloReal +
+               ", Categoria: " + categoria +
+               ", Potência: " + potenciaNominalWatts + "W" +
+               ", Tensão: " + tensaoOperacaoVolts + "V" +
+               ", Horas/dia: " + horasPorDiaTrabalho +
+               ", Dias/mês: " + diasFuncionamentoMes;
+    }
+}
