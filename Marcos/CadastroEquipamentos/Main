@@ -1,1 +1,11 @@
-m
+// Classe principal para executar o programa
+public class Main {
+    public static void main(String[] args) {
+        // Cria o cadastro que vai gerenciar os equipamentos
+        CadastroEquipamentos cadastro = new CadastroEquipamentos();
+
+        // Aqui você poderia pedir ao usuário para cadastrar equipamentos via teclado.
+        // Como exemplo, vamos só listar (a lista estará vazia)
+        cadastro.listarEquipamentos();
+    }
+}
