@@ -16,9 +16,6 @@ Este trabalho se justifica pela necessidade de explorar e propor soluções que 
 
 ---
 
-Essa versão destaca a importância da eficiência elétrica dentro do setor industrial, abordando desafios e soluções específicas.
-
-
 ## Problema na Atualidade
 Um dos maiores obstáculos é o alto custo inicial de investimentos em tecnologias eficientes, como motores de alto rendimento, inversores de frequência, sistemas de automação, sensores e plataformas de gestão energética. Embora o retorno sobre o investimento seja, em muitos casos, rápido, muitas empresas, principalmente as pequenas e médias indústrias, têm dificuldade em arcar com esses custos.
 
