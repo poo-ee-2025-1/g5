@@ -1,0 +1,33 @@
+@startuml
+actor Usuário
+participant "Main" as Main
+participant "CalcularGasto" as Calc
+participant "TarifasRepository" as Repo
+participant "BancoDados" as DB
+
+Usuário -[#red]> Main: Inicia programa
+
+group Entrada de dados
+    Usuário -[#red]> Main: Informa\n(estado, potência,\n horários)
+end
+
+
+Main -[#purple]> Repo: buscarEstado(estado)
+Repo -[#blue]> DB: Consulta tarifas
+DB -[#blue]-> Repo: Dados
+Repo -[#purple]-> Main: Objeto Tarifas
+
+Main -[#green]> Calc: calcularGasto()
+activate Calc
+Calc -[#green]> Calc: horasPonta()
+Calc -[#green]> Calc: horasForaPonta()
+Calc -[#green]> Calc: calcularConsumo()
+Calc -[#green]-> Main: Resultado
+deactivate Calc
+
+Main -[#red]> Usuário: Mostra resultados
+Main -[#purple]> Repo: close()
+Repo -[#blue]> DB: Fecha conexão
+@enduml
+
+![Diagrama](//www.plantuml.com/plantuml/png/VL5B3XCn3Dtx55RPj59xWLcWgfyY5XK8mOgoS9Eq7PI98oT1S1p4ZclqOYIX0KQbdKKqYTzxzlDRXaWIqs21L6J13o5TlqlFuFDphtfFBk9aJxsR80KiF-FIcgnAbkGLXSWLKrx6cFSa_Od2E-CvzBdBjuehrp5kHKxnXZI72jYi0DeykFZuGep-zBAEqE5hbrc4NlWiD130MJXvtBeef0crGLrq0FFtMEF4Cj31JKs86Jr7p_7wqsNX-S7XXQNImWoCqm1GM4N39_7MP9dYeCDZ2efaMoLkIZCefO8zsfIHsKg7QtOXsKWOVwy3Dgi_Y4KJg-uRktLQj8dV73-Ro7ZRvz-9pcACostAwZjK_qOodPLa-oyKJIr3EUuunIo5j-mYPS8Jo2uVps6jUxKxy1skcSc6wpeqWpQZ4PklbbRBhyCzXoY4qfZXKIRASZ3J_yQmC-f2gDYPhzSV3CkSRHhiBm00)

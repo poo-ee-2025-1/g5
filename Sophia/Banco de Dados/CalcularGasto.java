@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class CalcularGasto extends PeriodoUso {
 
-    private double potencia; // em W
+    private double potencia; //em W
     private String estado;
     private TarifasRepository tarifasRepository;
     
@@ -25,12 +25,11 @@ public class CalcularGasto extends PeriodoUso {
     
         LocalTime inicio = getInicio();
         LocalTime fim = getFim();
-      
-        //necessário criar uma exceção para caso o horário de operação não seja em momento algum no Hora Ponta, para que o consumo não seja negativo
-      
+        
+        //necessário criar uma exceção para caso o horário de operação não seja em momento algum no Hora Ponta, para que o resultado do consumo não seja negativo
+       
         if (fim.isBefore(inicioPonta) || inicio.isAfter(fimPonta)) {
-          
-          return 0.0;
+        return 0.0;
         }
         
         LocalTime inicioHoraPonta;
