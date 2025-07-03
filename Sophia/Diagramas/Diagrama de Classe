@@ -1,0 +1,67 @@
+@startuml
+class Tarifas {
+  -String estado
+  -double ponta
+  -double foraPonta
+  +Tarifas()
+  +Tarifas(String, double, double)
+  +getEstado(): String
+  +setEstado(String): void
+  +getPonta(): double
+  +setPonta(double): void
+  +getForaPonta(): double
+  +setForaPonta(double): void
+}
+
+class PeriodoUso {
+  -LocalTime inicio
+  -LocalTime fim
+  +PeriodoUso(LocalTime, LocalTime)
+  +getInicio(): LocalTime
+  +getFim(): LocalTime
+  +toString(): String
+}
+
+class CalcularGasto {
+  -double potencia
+  -String estado
+  -TarifasRepository tarifasRepository
+  -static LocalTime inicioPonta
+  -static LocalTime fimPonta
+  +CalcularGasto(LocalTime, LocalTime, double, String, TarifasRepository)
+  +horasPonta(): double
+  +horasForaPonta(): double
+  +calcularConsumo(): double
+  +calcularGasto(): double
+  +getPotencia(): double
+  +setPotencia(double): void
+}
+
+class TarifasRepository {
+  -Dao<Tarifas, String> dao
+  -Database database
+  +TarifasRepository()
+  +buscarEstado(String): Tarifas
+  +close(): void
+}
+
+class Database {
+  -String databaseName
+  -JdbcConnectionSource connection
+  +Database(String)
+}
+
+class Main {
+  +main(String[]): void
+}
+
+
+CalcularGasto --|> PeriodoUso
+TarifasRepository --> Database
+TarifasRepository --> Tarifas
+CalcularGasto --> TarifasRepository
+
+
+Main --> CalcularGasto
+Main --> TarifasRepository
+@enduml
