@@ -1,4 +1,5 @@
-**Objetivo**
+
+** Objetivo **  
 
   Este conjunto de clases tem como objetivo implementar o acesso a dados de um sistema de consulta de tarifas de energia elétrica voltado ao setor industrial de cada estado. A classe
 Database tem como objetivo gerenciar a conexão com o banco de dados SQLite utilizando a biblioteca ORMLite. Já a classe Tarifas representa uma entidade mapeada para uma tabela do banco 
@@ -6,6 +7,10 @@ de dados e seus métodos getters e setters. A classe TarifasRepository é respon
 buscarEstado em que foi implementado um laço para, para que percorra a tabela e encontre o estado desejado e então retorne os valores ponta e fora ponta. Assim, na classe CalcularGasto 
 será  calculado o gasto  de cada equipamento, de acordo com o horário de funcionamento, usando os valores ponta e fora de ponta, e com a potência do equipamento atual. A partir desses dados,
 o sistema pode fornecer recomendações personalizadas aos clientes, de acordo com suas necessidades específicas.
+  Para que o sistema funcionasse corretamente, foi essencial a utilização do programa DB Browser for SQLite, uma ferramenta gráfica que permitiu a criação e o gerenciamento do banco de dados
+tarifas.db. Através dele, foi possível integrar os dados das tarifas e acessá-los através do código, eliminando a necessidade de inserir informações manualmente linha por linha no Java. Além 
+de facilitar, possíveis alterações futuras das tarifas, uma vez que,  poderão ser feita diretamente no banco de dados, sem a necessidade de modificar o código-fonte.
+  
 
 **Referências**
 
