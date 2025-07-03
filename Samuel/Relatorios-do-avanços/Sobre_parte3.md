@@ -32,7 +32,7 @@ O **Controller1** é o controlador responsável por ligar a interface gráfica c
 - O usuário tem que preencher vários campos como nome, categoria, tempo de uso, etc, para assim passar as informaçoes nescessarias dos equipamentos para o engenheiro fazer o orçamento com sucesso.
 - Ao clicar em **Salvar**, o equipamento é salvo em uma lista.
 
-  ![Captura de tela 2025-07-03 085944](https://github.com/user-attachments/assets/58b3b6ca-7cef-4ac7-aa06-889c4a1584e7
+  ![Captura de tela 2025-07-03 085944](https://github.com/user-attachments/assets/58b3b6ca-7cef-4ac7-aa06-889c4a1584e7)
   
   -  em salvar, ele desabilita os botoes novamente e  volta pro estado inicial( onde so o add é disponivel) , ele recebe o conteudo dos textfield em cada variavel
   -  logo depois ele instanci um equipamento com esses dados coletados, e teria que enviar esse equipamento para o banco de dados, coloquei como exemplo , ele enviando esse equipamento para uma lista (temporaria). 
