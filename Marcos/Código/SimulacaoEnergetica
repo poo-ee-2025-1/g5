@@ -1,0 +1,40 @@
+package Model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SimulacaoEnergetica {
+    private Empresa empresa;
+    private List<PropostaServico> propostas;
+
+    public SimulacaoEnergetica(Empresa empresa) {
+        this.empresa = empresa;
+        this.propostas = new ArrayList<>();
+    }
+
+    public void adicionarProposta(PropostaServico proposta) {
+        propostas.add(proposta);
+    }
+
+    public double calcularCustoTotal() {
+        return propostas.stream()
+                .mapToDouble(p -> p.custoImplementacao)
+                .sum();
+    }
+
+    public double calcularEconomiaTotal() {
+        return propostas.stream()
+                .mapToDouble(p -> p.economiaMensalEstimativa)
+                .sum();
+    }
+
+    public double calcularPaybackTotal() {
+        double economia = calcularEconomiaTotal();
+        if (economia <= 0) return Double.POSITIVE_INFINITY;
+        return calcularCustoTotal() / economia;
+    }
+
+    public List<PropostaServico> getPropostas() {
+        return propostas;
+    }
+}
