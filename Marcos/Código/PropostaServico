@@ -1,0 +1,23 @@
+package Model;
+
+public class PropostaServico {
+    private Equipamento equipamentoOriginal;
+    private Equipamento equipamentoProposto;
+    public String justificativa;
+    public double custoImplementacao;
+    public double economiaMensalEstimativa;
+
+    public PropostaServico(Equipamento original, Equipamento proposto, String justificativa,
+                           double custo) {
+        this.equipamentoOriginal = original;
+        this.equipamentoProposto = proposto;
+        this.justificativa = justificativa;
+        this.custoImplementacao = custo;
+        this.economiaMensalEstimativa = original.calcularConsumoMensal()-proposto.calcularConsumoMensal();
+    }
+
+    public double calcularPayback() {
+        if (economiaMensalEstimativa <= 0) return Double.POSITIVE_INFINITY;
+        return custoImplementacao / economiaMensalEstimativa;
+    }
+}
