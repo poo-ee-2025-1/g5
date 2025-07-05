@@ -1,11 +1,96 @@
 #  Análise das Figuras: Eficiência Energética Industrial no Brasil
 
+#  Figura 1 — VA Industrial, Consumo de Energia e Intensidade (2005–2023)
+
+![Figura 1 – VA Industrial, Consumo de Energia e Intensidad ](https://drive.google.com/uc?export=view&id=1CbI6u-vRfIBdRVLL4PPdXPnl2y6Ecybc)
+
+>  Fonte: Elaboração própria com dados do
+EPE – Empresa de Pesquisa Energética. Atlas de Eficiência Energética Brasil 2024.
+Disponível em: https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/atlas-de-eficiencia-energetica-brasil-2024
+ 
+##
+
+##  **Análise econômica e técnica (o que significa e por que importa)**
+
+### 🔴 **VA Industrial (Valor Adicionado)**  
+É a medida real da riqueza gerada pela indústria ao transformar insumos em produtos.  
+Calcula-se pela diferença entre o valor total da produção e os custos com matérias-primas e serviços adquiridos de terceiros.
+
+**Relevância econômica:**  
+- Funciona como o “motor” do setor produtivo: quando o VA cresce, há mais empregos, renda e investimentos.
+- Quedas no VA, como nas crises de 2015–2016 e 2020, revelam retração produtiva, menor geração de valor e perda de competitividade.
 
 ##
 
-#  Figura 1 — ODEX vs Intensidade Energética (2005–2023)
+### 🔵 **Consumo de Energia na Indústria**  
+Representa o volume total de energia consumida pelo setor industrial ao longo do ano (em MWh ou GWh).
 
-![Figura 1 – ODEX vs Intensidade Energética](https://drive.google.com/uc?export=view&id=1nq_50o7CtS0LsLeKPsqotgIyvRUZiQHV)
+Mesmo quando o VA caiu, dados históricos mostram que o consumo seguiu subindo.  
+Isso revela rigidez estrutural da indústria, que manteve custos fixos elevados e pouca flexibilidade para reduzir consumo em períodos de crise.
+
+**Impacto econômico:**  
+- Aumenta a pressão sobre margens de lucro.
+- Encarece o produto final e limita a competitividade, principalmente frente a mercados mais eficientes.
+
+##
+
+### 🟠 **Intensidade Energética**  
+Mede a quantidade de energia gasta para gerar cada real de valor adicionado (VA).  
+Ou seja, indica a eficiência do uso de energia na produção: quanto menor a intensidade, maior a produtividade energética.
+
+Após 2015, a intensidade energética aumentou significativamente, revelando que se passou a gastar mais energia para gerar menos riqueza.
+
+**Impacto econômico:**  
+- Mais dependência de energia para produzir → custos relativos maiores.
+- Sinaliza desperdício ou processos produtivos ultrapassados, reduzindo competitividade frente a outros países.
+
+##
+
+## **Síntese econômica integrada:**  
+- O **VA Industrial** mostra quanta riqueza real a indústria cria.
+- O **Consumo de Energia** indica o custo de manter a produção, mesmo em queda.
+- A **Intensidade Energética** revela se essa energia está sendo usada de forma eficiente ou não.
+
+> Em conjunto, esses indicadores ajudam a enxergar gargalos estruturais, medir produtividade e orientar decisões para modernizar o parque industrial brasileiro.
+
+##
+
+##  **Desdobramentos da análise (com base nos dados históricos):**
+
+1. **Descolamento VA x Consumo de Energia:**  
+   Mesmo com quedas ou estagnação do VA, o consumo continuou subindo → mais custo e menos retorno.
+
+2. **Crises revelam rigidez produtiva:**  
+   A indústria manteve alto consumo mesmo em baixa produção, sinalizando pouca modernização.
+
+3. **Dependência de setores tradicionais:**  
+   Estrutura produtiva baseada em setores pesados, que consomem muito e geram pouco valor agregado.
+
+*(Fonte: EPE, Análise Setorial da Indústria e Intensidade Energética)*
+
+##
+
+##  **Resultados Finais (2005–2023):**
+
+- O VA se recupera levemente no pós-crise (2021–2023), mas continua abaixo do potencial histórico.
+- A Intensidade Energética sobe junto, anulando ganhos da retomada econômica, pois os custos por unidade de valor permanecem altos.
+
+*(Fonte: EPE, séries históricas)*
+
+##
+
+## **Resumo Final da Figura 1:**  
+- A produção caiu durante as crises, mas o consumo de energia seguiu crescendo.
+- Isso mostra que a indústria brasileira é pouco adaptável, depende de setores que consomem muito e geram baixo valor.
+- Como consequência, os custos industriais continuam altos e a eficiência do sistema segue baixa.
+
+
+
+##
+
+#  Figura 2 — ODEX vs Intensidade Energética (2005–2023)
+
+![Figura 2 – ODEX vs Intensidade Energética](https://drive.google.com/uc?export=view&id=1nq_50o7CtS0LsLeKPsqotgIyvRUZiQHV)
 
 > Fonte: Elaboração própria com dados do
 EPE – Empresa de Pesquisa Energética. Atlas de Eficiência Energética Brasil 2024.
@@ -109,91 +194,6 @@ Por outro lado, o país **ainda tem baixa presença de setores modernos**, com a
   - **Integração entre política industrial e eficiência energética sistêmica**.
 
 ##
-
-#  Figura 2 — VA Industrial, Consumo de Energia e Intensidade (2005–2023)
-
-![Figura 2 – VA Industrial, Consumo de Energia e Intensidad ](https://drive.google.com/uc?export=view&id=1CbI6u-vRfIBdRVLL4PPdXPnl2y6Ecybc)
-
->  Fonte: Elaboração própria com dados do
-EPE – Empresa de Pesquisa Energética. Atlas de Eficiência Energética Brasil 2024.
-Disponível em: https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/atlas-de-eficiencia-energetica-brasil-2024
- 
-##
-
-##  **Análise econômica e técnica (o que significa e por que importa)**
-
-### 🔴 **VA Industrial (Valor Adicionado)**  
-É a medida real da riqueza gerada pela indústria ao transformar insumos em produtos.  
-Calcula-se pela diferença entre o valor total da produção e os custos com matérias-primas e serviços adquiridos de terceiros.
-
-**Relevância econômica:**  
-- Funciona como o “motor” do setor produtivo: quando o VA cresce, há mais empregos, renda e investimentos.
-- Quedas no VA, como nas crises de 2015–2016 e 2020, revelam retração produtiva, menor geração de valor e perda de competitividade.
-
-##
-
-### 🔵 **Consumo de Energia na Indústria**  
-Representa o volume total de energia consumida pelo setor industrial ao longo do ano (em MWh ou GWh).
-
-Mesmo quando o VA caiu, dados históricos mostram que o consumo seguiu subindo.  
-Isso revela rigidez estrutural da indústria, que manteve custos fixos elevados e pouca flexibilidade para reduzir consumo em períodos de crise.
-
-**Impacto econômico:**  
-- Aumenta a pressão sobre margens de lucro.
-- Encarece o produto final e limita a competitividade, principalmente frente a mercados mais eficientes.
-
-##
-
-### 🟠 **Intensidade Energética**  
-Mede a quantidade de energia gasta para gerar cada real de valor adicionado (VA).  
-Ou seja, indica a eficiência do uso de energia na produção: quanto menor a intensidade, maior a produtividade energética.
-
-Após 2015, a intensidade energética aumentou significativamente, revelando que se passou a gastar mais energia para gerar menos riqueza.
-
-**Impacto econômico:**  
-- Mais dependência de energia para produzir → custos relativos maiores.
-- Sinaliza desperdício ou processos produtivos ultrapassados, reduzindo competitividade frente a outros países.
-
-##
-
-## **Síntese econômica integrada:**  
-- O **VA Industrial** mostra quanta riqueza real a indústria cria.
-- O **Consumo de Energia** indica o custo de manter a produção, mesmo em queda.
-- A **Intensidade Energética** revela se essa energia está sendo usada de forma eficiente ou não.
-
-> Em conjunto, esses indicadores ajudam a enxergar gargalos estruturais, medir produtividade e orientar decisões para modernizar o parque industrial brasileiro.
-
-##
-
-## ✅ **Desdobramentos da análise (com base nos dados históricos):**
-
-1. **Descolamento VA x Consumo de Energia:**  
-   Mesmo com quedas ou estagnação do VA, o consumo continuou subindo → mais custo e menos retorno.
-
-2. **Crises revelam rigidez produtiva:**  
-   A indústria manteve alto consumo mesmo em baixa produção, sinalizando pouca modernização.
-
-3. **Dependência de setores tradicionais:**  
-   Estrutura produtiva baseada em setores pesados, que consomem muito e geram pouco valor agregado.
-
-*(Fonte: EPE, Análise Setorial da Indústria e Intensidade Energética)*
-
-##
-
-## 📌 **Resultados Finais (2005–2023):**
-
-- O VA se recupera levemente no pós-crise (2021–2023), mas continua abaixo do potencial histórico.
-- A Intensidade Energética sobe junto, anulando ganhos da retomada econômica, pois os custos por unidade de valor permanecem altos.
-
-*(Fonte: EPE, séries históricas)*
-
-##
-
-## 📝 **Resumo Final da Figura 2:**  
-- A produção caiu durante as crises, mas o consumo de energia seguiu crescendo.
-- Isso mostra que a indústria brasileira é pouco adaptável, depende de setores que consomem muito e geram baixo valor.
-- Como consequência, os custos industriais continuam altos e a eficiência do sistema segue baixa.
-
 
 ## Fontes principais (EPE):
 
